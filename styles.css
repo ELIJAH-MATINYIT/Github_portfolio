@@ -1,0 +1,85 @@
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+.logo {
+    position: absolute;
+    top: 30px; /* Adjust as needed */
+    left: 30px; /* Adjust as needed */
+    height: 60px; /* Adjust size as needed */
+}
+p {
+    text-align: justify;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+section {
+    padding: 2em;
+    margin: auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    margin: 1em 0;
+}
+label {
+    display: block;
+    margin: 0.5em 0;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #1DA1F2;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+}
+th, td {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+img {
+    max-width: 300%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+a {
+    color: #1DA1F2;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
